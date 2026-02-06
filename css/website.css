@@ -1,0 +1,106 @@
+#flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #c5a461;
+    padding: 10px;
+  flex-wrap: wrap;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#flex a{
+    text-decoration: none;
+    color: #ffffff;
+    gap: 20px;
+    border-right: 1px solid #fff;  
+    margin-right: 50px;  
+    padding: 10px;
+     font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+#flex a:hover{
+    text-decoration: underline;
+}
+#color{
+      color: #ffffff;
+      margin-left: 50px;
+      text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  padding-top: 6px;
+}
+header{
+    background-image: url(images/background.svg);
+}
+
+/* NAVIGATION BAR  */
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#space ul{
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+}
+#space a{
+    text-decoration: none;
+    color: #1C2539;
+    padding: 20px;
+     font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+.color a{
+    color: #ffffff;
+    background-color: #c5a461;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+     text-decoration: none;
+      font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+.color a:hover{
+    color: #c5a461;
+    background-color: azure;
+    transition-delay: 0.1s;
+}
+#align{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+     font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  gap: 20px; 
+  margin-top: 140px;
+}
+
+/* 1st Section */
+
+
+#arrange{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
